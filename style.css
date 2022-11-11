@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
 :root {
   /* (intro and email sign up background) */
   --Dark-lue: hsl(217, 28%, 15%);
@@ -39,6 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 1440px;
+  font-family: "Open Sans", sans-serif;
 }
 
 main {
@@ -56,6 +59,15 @@ main {
 header,
 .hero {
   background-color: var(--Dark-Blue-300);
+}
+
+h1,
+h2,
+h3,
+h4,
+.cta,
+nav {
+  font-family: "Raleway", sans-serif;
 }
 
 .cta {
